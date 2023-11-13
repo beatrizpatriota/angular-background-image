@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 
 import { PublicRoutingModule } from './public-routing.module';
 import { PublicComponent } from './public.component';
-import { LandingModule } from './landing/landing.module';
 
 
 @NgModule({
@@ -12,8 +11,7 @@ import { LandingModule } from './landing/landing.module';
   ],
   imports: [
     CommonModule,
-    PublicRoutingModule,
-    LandingModule
+    PublicRoutingModule
   ]
 })
 export class PublicModule { }
